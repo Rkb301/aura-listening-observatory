@@ -1,0 +1,25 @@
+node_modules/
+.DS_Store
+.env
+*.log
+coverage/
+# Acer-only official player binary, local glibc runtime, diagnostic artifacts
+vendor/
+soloist
+test-artifacts/
+.aura-transfer*
+# AURA local-only artifacts and private data
+backups/
+releases/
+.aura-music/
+*.key
+*.pem
+*.p12
+*.token
+*.sqlite
+*.sqlite3
+.env.*
+!*.env.example
+# Generated Python bytecode (local health checks)
+__pycache__/
+*.pyc

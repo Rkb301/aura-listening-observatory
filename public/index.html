@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#101017" />
+  <meta name="description" content="AURA — a personal local-first music space connected to Spotify" />
+  <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="stylesheet" href="/styles.css" />
+  <title>AURA — personal music space</title>
+</head>
+<body>
+  <div class="app-shell">
+    <aside id="sidebar" class="sidebar" aria-label="Primary navigation"></aside>
+    <div class="main-shell">
+      <header id="topbar" class="topbar"></header>
+      <main id="main" class="page" tabindex="-1" aria-live="polite"></main>
+    </div>
+    <footer id="player" class="player" aria-label="Music player"></footer>
+  </div>
+  <div id="toasts" class="toast-area" aria-live="polite"></div>
+  <div id="modal" class="modal-root" hidden></div>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
